@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 // mongoose.connect('mongodb://0.0.0.0:27017/athentication');
-const DB = 'mongodb+srv://birajjyo2:uhnekDGnu6zglcFo@cluster0.kybvwzo.mongodb.net/nodejsAtentication';
+const DB = 'mongodb+srv://yadavv7880:1SsOdLXnB6rwIUr4@cluster0.delxxlc.mongodb.net/nodejs_Atentication';
+//const DB = 'mongodb+srv://yadavv7880:@cluster0.delxxlc.mongodb.net/placement_cell';
 
 mongoose.connect(DB, {
 	useNewUrlParser: true,
