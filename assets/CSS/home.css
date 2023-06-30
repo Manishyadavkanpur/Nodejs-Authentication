@@ -1,0 +1,65 @@
+body{
+    font-family:sans-serif;
+}
+header{
+    height: 70px;
+    display: flex;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(71, 71, 110);
+    margin: -8px;
+    justify-content: center;
+    align-items: center;
+}
+header div{
+    margin: 0 400px 0 40px;
+}
+#content{
+    display: flex;
+    margin: 0;
+}
+
+#content p{
+    margin: 0 50px 0 0;
+    cursor:pointer;
+}
+#content p:hover{
+    color:red;
+}
+#content p a:hover{
+    color:rgb(240, 112, 112);
+}
+#dropdown{
+
+    height: 150px;
+    width: 250px;
+    border: 2px black solid;
+    margin: 0 0 0 1250px; 
+    box-shadow: 10px 10px 10px rgb(41, 39, 39);
+    opacity: 0; 
+    background-color: rgb(207, 207, 207);
+    padding-left:5px;
+    border-radius: 3px;
+}
+#dropdown #X-mark{
+    cursor:pointer;
+    color:red;
+    font-weight: bold;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-image: url('../IMAGE/fabrizio-conti-kXVogATbFgA-unsplash.jpg');
+    background-position: center;
+    background-size: 100% 600%;
+    background-repeat: no-repeat;
+    
+}
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
